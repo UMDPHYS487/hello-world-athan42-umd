@@ -11,7 +11,7 @@ int main() {
             std::cout<<"k is "<<k<<" "<<lll<<std::endl;
             std::this_thread::sleep_for(std::chrono::milliseconds(1000));
         }
-        delete jjj;
+        delete jjj; 
     }
     std::cout<<"big pause before exiting"<<std::endl;
     std::this_thread::sleep_for(std::chrono::milliseconds(100000));
